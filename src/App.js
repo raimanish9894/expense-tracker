@@ -27,7 +27,7 @@ function App() {
         <Stack direction="horizontal" gap="2" className="mb-4">
           <h1 className="me-auto">Budgets</h1>
           <Button variant="primary" onClick={() => setShowBudgetModal(true)}>
-            Add Budget
+            Add Budgets
           </Button>
           <Button variant="outline-primary" onClick={openAddExpenseModal}>
             Add Expense
